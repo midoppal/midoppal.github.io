@@ -45,7 +45,7 @@ Developed a diffusion-based pipeline to generate realistic Modbus/TCP SCADA netw
 - **Contribution:** Built an end-to-end pipeline from PCAP parsing → structured feature extraction → diffusion model training → protocol-compliant packet reconstruction
 - **Validation:** Designed a multistage evaluation framework combining protocol-level verification (request–response consistency) and statistical similarity testing (PCA + SVM)
 - **Focus:** Network security, generative modeling, and realistic traffic synthesis for ICS environments
-- [Paper](./assets/papers/Modeling_Realistic_SCADA_Traffic_w_Diffusion.pdf)
+- [Paper](./assets/papers/Diffusion_Based_SCADA_Traffic_Generation.pdf)
 
 ## Efficient Multi-Agent LLM Orchestration for Optimization (Chain-of-Experts)
 Developed and evaluated alternative orchestration policies for a multi-agent LLM system (Chain-of-Experts) that converts natural language optimization problems into executable integer programming code. Replaced a costly conductor LLM with rule-based and reinforcement learning policies to reduce computational overhead while maintaining performance.
