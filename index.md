@@ -3,8 +3,8 @@ layout: home
 title: Home
 ---
 
-<!-- # Milin Doppalapudi -->
-<h1 style="color: #0ea5a4;">Milin Doppalapudi</h1>  
+# Milin Doppalapudi 
+<!-- <h1 style="color: #0ea5a4;">Milin Doppalapudi</h1>   -->
 
 Machine Learning Engineer focused on computer vision, deep learning, and real-time AI systems.
 
@@ -14,8 +14,8 @@ I am a Master's student in Computer Science at **UC Santa Cruz** with experience
 
 ---
 
-<h2 style="color: #FF582E;">Education</h2>
-<!-- ## Education -->
+<!-- <h2 style="color: #FF582E;">Education</h2> -->
+## Education
 
 **University of California, Santa Cruz**  
 **M.S. in Computer Science**  
