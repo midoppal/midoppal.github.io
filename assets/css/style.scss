@@ -1,19 +1,11 @@
-// ---
-// ---
+.page-heading {
+  color: #2563eb !important;
+}
 
-// @import "{{ site.theme }}";
+.navbar-brand {
+  color: #2563eb !important;
+}
 
-// /* Page title (hero section) */
-// .page-heading {
-//   color: #FF582E !important; /* change color */
-// }
-
-// /* Site title in navbar */
-// .navbar-brand {
-//   color: #FF582E !important;
-// }
-
-// /* Main headers */
-// h1, h2 {
-//   color: #FF582E;
-// }
+h1, h2 {
+  color: #2563eb;
+}
