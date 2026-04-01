@@ -13,7 +13,7 @@ I am a Master's student in Computer Science at **UC Santa Cruz** with experience
 
 ---
 
-<h2 style="color: #8C1A00;">Education</h2>
+<h2 style="color: #FF582E;">Education</h2>
 <!-- ## Education -->
 
 **University of California, Santa Cruz**  
