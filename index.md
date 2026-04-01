@@ -5,7 +5,7 @@ title: Home
 
 # Milin Doppalapudi
 
-aMachine Learning Engineer focused on computer vision, deep learning, and real-time AI systems.
+Machine Learning Engineer focused on computer vision, deep learning, and real-time AI systems.
 
 I am a Master's student in Computer Science at **UC Santa Cruz** with experience building deployable AI and machine learning systems, including **real-time text detection under motion blur**, **medical image classification**, and **graph-based ML research**.
 
