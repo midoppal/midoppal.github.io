@@ -3,7 +3,6 @@
 
 @import "{{ site.theme }}";
 
-/* Change page title color */
-.page-title {
-  color: #FF582E;
+h1 {
+  color: #2563eb; /* your desired color */
 }
