@@ -30,6 +30,8 @@ Finetuned the multimodal LLaVA-Med model using parameter-efficient methods to de
   
 ## Graph Neural Networks for Hyperparameter Inference in Ising Solvers
 
-Worked on graph-based learning methods for solver/hyperparameter selection, contributing to a workshop publication.
+Co-developed a graph neural network system to infer high performing hyperparameters for a chaotic amplitude control Ising solver, replacing manual tuning with learned instance specific parameter prediction. Designed the pipeline around supervised learning on optimized graph hyperparameter pairs and incorporated a scaling based post processing module to improve generalization from small training graphs to much larger unseen instances.
 
+Key results: Achieved strong transfer from graphs with 100–300 nodes during training to benchmark graphs up to 2000 nodes, with the learned hyperparameters frequently outperforming hand tuned settings on time to solution.
+Focus: Learned solver configuration for combinatorial optimization using graph neural networks.
 - [Publication](./papers)
