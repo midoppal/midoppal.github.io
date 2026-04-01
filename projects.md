@@ -12,7 +12,7 @@ Built and evaluated real-time text detection pipelines based on DBNet and DINOv2
 - **Focus:** real-time robustness under motion blur
 - **Tools:** PyTorch, OpenCV, ICDAR2015
 - [Project Repo](https://github.com/yourusername/yourrepo)
-- [Paper / Report](./papers)
+- [Paper](./assets/papers/Realtime_Live_Text_Detection.pdf)
 
 ## Pneumothorax Classification with LLaVA-Med and PEFT
 
