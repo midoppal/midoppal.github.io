@@ -37,3 +37,13 @@ Co-developed a graph neural network system to infer high performing hyperparamet
 - **Focus:** Learned solver configuration for combinatorial optimization using graph neural networks.
 - [Publication](./papers)
 - [Paper](./assets/papers/Graph_Neural_Networks_for_Ising.pdf)
+
+## Modeling Realistic SCADA Traffic with Diffusion
+Developed a diffusion-based pipeline to generate realistic Modbus/TCP SCADA network traffic from raw PCAP data, enabling privacy-preserving dataset augmentation for industrial control system (ICS) research. Designed feature extraction, model training, and validation pipelines to ensure both protocol correctness and statistical realism.
+
+- **Key results:** Generated synthetic traffic that preserved core statistical properties of real Modbus communication, with ~48% of synthetic packets indistinguishable from real traffic under SVM classification
+- **Contribution:** Built an end-to-end pipeline from PCAP parsing → structured feature extraction → diffusion model training → protocol-compliant packet reconstruction
+- **Validation:** Designed a multistage evaluation framework combining protocol-level verification (request–response consistency) and statistical similarity testing (PCA + SVM)
+- **Focus:** Network security, generative modeling, and realistic traffic synthesis for ICS environments
+- [Paper](./assets/papers/Modeling_Realistic_SCADA_Traffic_w_Diffusion.pdf)
+
