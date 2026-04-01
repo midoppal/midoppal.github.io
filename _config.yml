@@ -3,7 +3,8 @@ description: "Machine Learning Engineer | Computer Vision"
 url: "https://midoppal.github.io" 
 baseurl: "" 
 markdown: kramdown 
-theme: minima 
+# theme: minima 
+remote_theme: "daattali/beautiful-jekyll"
 plugins: 
   - jekyll-remote-theme 
 
