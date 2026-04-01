@@ -16,11 +16,11 @@ I am a Master's student in Computer Science at **UC Santa Cruz** with experience
 ## Education
 
 **University of California, Santa Cruz**  
-**M.S. in Computer Science** </sub>2024 - 2025</sub>
-Relevant focus: Computer Vision, Machine Learning, Deep Learning, Distributed Systems
+**M.S. in Computer Science**  
+Relevant focus: Computer Vision, Machine Learning, Deep Learning, GNNs, Diffusion
 
 **University of California, Santa Cruz**  
-**B.S. in Computer Science** </sub>2020 - 2024 </sub>
+**B.S. in Computer Science** 
 
 ---
 
