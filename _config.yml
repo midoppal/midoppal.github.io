@@ -1,14 +1,12 @@
-title: "Milin Doppalapudi"
-description: "Machine Learning Engineer | Computer Vision"
-url: "https://midoppal.github.io"
-baseurl: ""
+title: "Milin Doppalapudi" 
+description: "Machine Learning Engineer | Computer Vision" 
+url: "https://midoppal.github.io" 
+baseurl: "" 
+markdown: kramdown 
+theme: minima 
+plugins: 
+  - jekyll-remote-theme 
 
-remote_theme: "mmistakes/minimal-mistakes"
-
-plugins:
-  - jekyll-remote-theme
-
-minimal_mistakes_skin: "air"
-
-include:
-  - _pages
+header_pages: 
+  - projects.md 
+  - papers.md
