@@ -47,3 +47,12 @@ Developed a diffusion-based pipeline to generate realistic Modbus/TCP SCADA netw
 - **Focus:** Network security, generative modeling, and realistic traffic synthesis for ICS environments
 - [Paper](./assets/papers/Modeling_Realistic_SCADA_Traffic_w_Diffusion.pdf)
 
+## Efficient Multi-Agent LLM Orchestration for Optimization (Chain-of-Experts)
+Developed and evaluated alternative orchestration policies for a multi-agent LLM system (Chain-of-Experts) that converts natural language optimization problems into executable integer programming code. Replaced a costly conductor LLM with rule-based and reinforcement learning policies to reduce computational overhead while maintaining performance.
+
+- **Key results:** Achieved comparable accuracy (~44.9% vs. 46.9% baseline) while reducing token usage by ~60% using a rule-based conductor policy
+- **Contribution:** Designed a keyword-weighted expert selection strategy and a reinforcement learning (DQN) policy for dynamic expert routing.
+- **Evauation:** Benchmarked across accuracy, compile/runtime error rates, and token cost on the LPWP dataset for optimization problem solving.
+- **Focus:** Multi-agent LLM systems, cost-efficient inference, and automated optimization modeling
+- [Paper](./assets/papers/Policies_Guiding_CoE.pdf)
+
