@@ -13,7 +13,7 @@ I am a Master's student in Computer Science at **UC Santa Cruz** with experience
 
 ---
 
-<h2 style="color: #BD2100;">Education</h2>
+<h2 style="color: #8C1A00;">Education</h2>
 <!-- ## Education -->
 
 **University of California, Santa Cruz**  
@@ -41,6 +41,15 @@ Applied graph neural networks to structured problem instances for inference and 
 [View Project](/projects/)
 
 ---
+
+## Publications
+
+### Graph Neural Networks for Hyperparameter Inference in Ising Solvers
+- Jiang, E., Leleu, T., Reifenstein, S., & Doppalapudi, M. “Graph Neural Networks for Hyperparameter Inference in Ising
+Solvers.” Optimization for ML (OPT) Workshop at NeurIPS 2024, 2024.
+  - [Paper Link](https://openreview.net/pdf?id=yCMaWyRsco)
+
+ ---
 
 ## Interests
 
