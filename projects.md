@@ -6,12 +6,12 @@ permalink: /projects/
 
 ## Real-Time Text Detection Under Motion Blur
 
-Built and evaluated real-time text detection pipelines based on DBNet and DINOv2 for blurred video frames. Designed a gamma-aware motion blur augmentation pipeline, compared pixel-level and IoU-based performance, and measured deployment-oriented FPS.
+Built and evaluated a real time live text detection model for blurred video frames with DBNet and DINOv2 as base architectures. Designed and trained on a gamma-aware motion blur augmentation pipeline, compared pixel-level and IoU-based performance, and measured deployment-oriented FPS.
 
-- **Key results:** up to 118 FPS model-only inference
-- **Focus:** real-time robustness under motion blur
+- **Key results:** Achieved over 50% absolute improvement in F1 score over baseline for the highest blur level while remaining stable across conditions. Maintained over 49 FPS for realtime deployment.
+- **Focus:** Real-time robustness under motion blur
 - **Tools:** PyTorch, OpenCV, ICDAR2015
-- [Project Repo](https://github.com/yourusername/yourrepo)
+- [Project Repo](https://github.com/midoppal/DBNet-Blurred-Text-Detector)
 - [Paper](./assets/papers/Realtime_Live_Text_Detection.pdf)
 
 ## Pneumothorax Classification with LLaVA-Med and PEFT
