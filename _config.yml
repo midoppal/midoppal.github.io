@@ -5,7 +5,9 @@ baseurl: ""
 markdown: kramdown 
 # theme: minima 
 remote_theme: "daattali/beautiful-jekyll"
-
+site-css:
+  - "/assets/css/custom.css"
+  
 plugins: 
   - jekyll-remote-theme 
 
