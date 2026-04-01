@@ -35,7 +35,7 @@ Co-developed a graph neural network system to infer high performing hyperparamet
 
 - **Key results:** Achieved strong transfer from graphs with 100–300 nodes during training to benchmark graphs up to 2000 nodes, with the learned hyperparameters frequently outperforming hand tuned settings on time to solution.
 - **Focus:** Learned solver configuration for combinatorial optimization using graph neural networks.
-- [Publication](./papers)
+- [Publication](https://neurips.cc/virtual/2024/101844)
 - [Paper](./assets/papers/Graph_Neural_Networks_for_Ising.pdf)
 
 ## Modeling Realistic SCADA Traffic with Diffusion
