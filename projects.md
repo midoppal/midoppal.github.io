@@ -39,6 +39,7 @@ Co-developed a graph neural network system to infer high performing hyperparamet
 - [Paper](./assets/papers/Graph_Neural_Networks_for_Ising.pdf)
 
 ## Modeling Realistic SCADA Traffic with Diffusion
+
 Developed a diffusion-based pipeline to generate realistic Modbus/TCP SCADA network traffic from raw PCAP data, enabling privacy-preserving dataset augmentation for industrial control system (ICS) research. Designed feature extraction, model training, and validation pipelines to ensure both protocol correctness and statistical realism.
 
 - **Key results:** Generated synthetic traffic that preserved core statistical properties of real Modbus communication, with ~48% of synthetic packets indistinguishable from real traffic under SVM classification
@@ -49,6 +50,7 @@ Developed a diffusion-based pipeline to generate realistic Modbus/TCP SCADA netw
 - [Paper](./assets/papers/Diffusion_Based_SCADA_Traffic_Generation.pdf)
 
 ## Efficient Multi-Agent LLM Orchestration for Optimization (Chain-of-Experts)
+
 Developed and evaluated alternative orchestration policies for a multi-agent LLM system (Chain-of-Experts) that converts natural language optimization problems into executable integer programming code. Replaced a costly conductor LLM with rule-based and reinforcement learning policies to reduce computational overhead while maintaining performance.
 
 - **Key results:** Achieved comparable accuracy (~44.9% vs. 46.9% baseline) while reducing token usage by ~60% using a rule-based conductor policy
@@ -58,3 +60,14 @@ Developed and evaluated alternative orchestration policies for a multi-agent LLM
 - [Project Repo](https://github.com/midoppal/Chain-of-Experts-Policy.git)
 - [Paper](./assets/papers/Efficient_Multi_Agent_LLM_Orchestration_for_Optimization.pdf)
 
+## Genetic Algorithm-Based Branch Predictor
+
+Developed a branch prediction system using genetic algorithms to optimize prediction tables based on program execution patterns. Modeled branch prediction as an evolutionary process, iteratively improving prediction accuracy through selection, crossover, and mutation of candidate predictors.
+
+- **Key results:** Achieved comparable performance to known branch prediction system gshare, proving theoretical validity of the proposed model and its effectiveness in capturing branch behavior patterns.
+- **Contribution:** Designed a fitness function based on misprediction-induced instruction flushes and implemented evolutionary updates over branch prediction tables
+- **Algorithm Design:** Introduced bimodal prediction values and consistency-based crossover to better capture branch behavior patterns.
+- **Evauation:** Simulated execution workloads and compared performance against traditional predictors (e.g., Gshare), analyzing tradeoffs in prediction accuracy and adaptability. 
+- **Focus:** Computer architecture, optimization algorithms, and applying machine learning-inspired techniques to low-level systems
+- [Project Repo](https://github.com/midoppal/genetic_algorithm_branch_predictor.git)
+<img src="/assets/images/genetic_branch_predictor_results.png" style="width:45%; height:45%; object-fit:cover;" />
