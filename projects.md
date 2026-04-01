@@ -14,8 +14,8 @@ Built and evaluated two real time live text detection models for blurred video f
 - [Paper](./assets/papers/Realtime_Live_Text_Detection.pdf)
 
 <div style="display:flex; justify-content:center; align-items:center; gap:10px; flex-wrap:nowrap;">
-  <img src="./assets/images/dbnet_baseline.png" style="width:45%; height:45%; object-fit:cover;" />
-  <img src="./assets/images/rt_dbnet.png" style="width:45%; height:45%; object-fit:cover;" />
+  <img src="/assets/images/dbnet_baseline.png" style="width:45%; height:45%; object-fit:cover;" />
+  <img src="/assets/images/rt_dbnet.png" style="width:45%; height:45%; object-fit:cover;" />
 </div>
 
 
