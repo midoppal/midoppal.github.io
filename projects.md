@@ -45,6 +45,7 @@ Developed a diffusion-based pipeline to generate realistic Modbus/TCP SCADA netw
 - **Contribution:** Built an end-to-end pipeline from PCAP parsing → structured feature extraction → diffusion model training → protocol-compliant packet reconstruction
 - **Validation:** Designed a multistage evaluation framework combining protocol-level verification (request–response consistency) and statistical similarity testing (PCA + SVM)
 - **Focus:** Network security, generative modeling, and realistic traffic synthesis for ICS environments
+- [Project Repo](https://github.com/midoppal/scada-generator-w-diffusion/tree/main)
 - [Paper](./assets/papers/Diffusion_Based_SCADA_Traffic_Generation.pdf)
 
 ## Efficient Multi-Agent LLM Orchestration for Optimization (Chain-of-Experts)
@@ -54,5 +55,6 @@ Developed and evaluated alternative orchestration policies for a multi-agent LLM
 - **Contribution:** Designed a keyword-weighted expert selection strategy and a reinforcement learning (DQN) policy for dynamic expert routing.
 - **Evauation:** Benchmarked across accuracy, compile/runtime error rates, and token cost on the LPWP dataset for optimization problem solving.
 - **Focus:** Multi-agent LLM systems, cost-efficient inference, and automated optimization modeling
+- [Project Repo](https://github.com/midoppal/Chain-of-Experts-Policy.git)
 - [Paper](./assets/papers/Efficient_Multi_Agent_LLM_Orchestration_for_Optimization.pdf)
 
