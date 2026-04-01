@@ -13,11 +13,12 @@ I am a Master's student in Computer Science at **UC Santa Cruz** with experience
 
 ---
 
-## Education
+<h2 style="color: #2a7fff;">Education</h2>
+<!-- ## Education -->
 
 **University of California, Santa Cruz**  
 **M.S. in Computer Science**  
-<span style="float: right; font-size: 0.7em; color: gray;">2024 – Present · GPA: 4.00</span><br>
+<span style="float: right; font-size: 0.7em; color: gray;">2024 – 2026 · GPA: 4.00</span><br>
 
 **University of California, Santa Cruz**  
 **B.S. in Computer Science**  
