@@ -29,15 +29,15 @@ I am a Master's student in Computer Science at **UC Santa Cruz** with experience
 
 ## Featured Work
 
-### Real-Time Text Detection Under Motion Blur
+#### Real-Time Text Detection Under Motion Blur
 Built and evaluated real-time text detection systems based on DBNet and DINOv2 for blurred video frames. Designed a gamma-aware motion blur augmentation pipeline, compared pixel-level and IoU-based performance, and measured deployment-oriented FPS.  
 [View Project](/projects/)  
 
-### Medical Image Classification with Vision-Language Models
+#### Medical Image Classification with Vision-Language Models
 Worked on medical imaging classification using parameter-efficient fine-tuning methods such as LoRA and adapters, with emphasis on reproducibility and evaluation.  
 [View Project](/projects/)
 
-### Graph Neural Networks for Solver Selection
+#### Graph Neural Networks for Solver Selection
 Applied graph neural networks to structured problem instances for inference and solver prediction, contributing to research-oriented ML workflows and experimentation.  
 [View Project](/projects/)
 
