@@ -21,17 +21,19 @@ Built and evaluated two real time live text detection models for blurred video f
 
 ## Pneumothorax Classification with LLaVA-Med and PEFT
 
-Finetuned the multimodal LLaVA-Med model using parameter-efficient methods to detect pneumothorax and multiclass diseases from chest X-rays.
+Adapted a multimodal large language model (LLaVA-Med) for pneumothorax and multiclass detection in chest X-rays using parameter-efficient finetuning (PEFT) techniques, enabling effective learning under limited medical data and compute constraints
 
-- **Key results:** Achieved over 25% improvement in F1 score over the zero shot baseline in binary classification and over 20% improvement in multiclass disease classification (Determined among 6 Diseases and No Finding)
+- **Key results:** Improved binary classification accuracy from ~48% (zero-shot) to ~78% using LoRA+BitFit, with significant gains in F1-score, AUC, and MCC. Additionally improved multiclass classification accuracy from ~14.25% (zero-shot) to ~38.07%.
+- **Efficiency:** Achieved strong performance while training only a small fraction of model parameters (≈0.05% for BitFit), enabling scalable adaptation of large MLLMs.
 - **Focus:** PEFT for medical vision-language models for targeted classification
 - [Project Repo](https://github.com/midoppal/PEFT-LLaVa-Med)
 - [Paper](./assets/papers/Peft_LlaVaMed_Pneumothorax.pdf)
   
 ## Graph Neural Networks for Hyperparameter Inference in Ising Solvers
 
-Co-developed a graph neural network system to infer high performing hyperparameters for a chaotic amplitude control Ising solver, replacing manual tuning with learned instance specific parameter prediction. Designed the pipeline around supervised learning on optimized graph hyperparameter pairs and incorporated a scaling based post processing module to improve generalization from small training graphs to much larger unseen instances.
+Co-developed a graph neural network system to infer high performing hyperparameters for a chaotic amplitude control Ising solver, replacing manual tuning with learned instance specific parameter prediction. The pipeline was designed around supervised learning on optimized graph hyperparameter pairs and incorporated a scaling based post processing module to improve generalization from small training graphs to much larger unseen instances.
 
-Key results: Achieved strong transfer from graphs with 100–300 nodes during training to benchmark graphs up to 2000 nodes, with the learned hyperparameters frequently outperforming hand tuned settings on time to solution.
-Focus: Learned solver configuration for combinatorial optimization using graph neural networks.
+- **Key results:** Achieved strong transfer from graphs with 100–300 nodes during training to benchmark graphs up to 2000 nodes, with the learned hyperparameters frequently outperforming hand tuned settings on time to solution.
+- **Focus:** Learned solver configuration for combinatorial optimization using graph neural networks.
 - [Publication](./papers)
+- [Paper](./assets/papers/Graph_Neural_Networks_for_Ising.pdf)
