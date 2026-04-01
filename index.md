@@ -4,7 +4,7 @@ title: Home
 ---
 
 <!-- # Milin Doppalapudi -->
-<h1 style="color: #FF582E;">Milin Doppalapudi</h1>  
+<h1 style="color: #0ea5a4;">Milin Doppalapudi</h1>  
 
 Machine Learning Engineer focused on computer vision, deep learning, and real-time AI systems.
 
