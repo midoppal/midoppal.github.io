@@ -18,7 +18,6 @@ I am a Master's student in Computer Science at **UC Santa Cruz** with experience
 **University of California, Santa Cruz**  
 **M.S. in Computer Science**  
 <span style="float: right; font-size: 0.7em; color: gray;">2024 – Present · GPA: 4.00</span><br>
-Relevant focus: Computer Vision, Machine Learning, Deep Learning, GNNs, Diffusion
 
 **University of California, Santa Cruz**  
 **B.S. in Computer Science**  
