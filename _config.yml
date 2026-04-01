@@ -4,7 +4,9 @@ url: "https://midoppal.github.io"
 baseurl: ""
 
 markdown: kramdown
+
 remote_theme: mmistakes/minimal-mistakes
+
 plugins:
   - jekyll-remote-theme
 
