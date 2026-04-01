@@ -54,5 +54,5 @@ Developed and evaluated alternative orchestration policies for a multi-agent LLM
 - **Contribution:** Designed a keyword-weighted expert selection strategy and a reinforcement learning (DQN) policy for dynamic expert routing.
 - **Evauation:** Benchmarked across accuracy, compile/runtime error rates, and token cost on the LPWP dataset for optimization problem solving.
 - **Focus:** Multi-agent LLM systems, cost-efficient inference, and automated optimization modeling
-- [Paper](./assets/papers/Policies_Guiding_CoE.pdf)
+- [Paper](./assets/papers/Efficient_Multi_Agent_LLM_Orchestration_for_Optimization.pdf)
 
