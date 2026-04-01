@@ -1,1 +1,15 @@
+title: "Milin Doppalapudi"
+description: "Machine Learning Engineer | Computer Vision | AI"
+url: "https://milindoppalapudi.github.io"
+baseurl: ""
 
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-remote-theme
+
+header_pages:
+  - projects.md
+  - papers.md
+  - education.md
+  - resume.md
