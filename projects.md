@@ -70,4 +70,4 @@ Developed a branch prediction system using genetic algorithms to optimize predic
 - **Evauation:** Simulated execution workloads and compared performance against traditional predictors (e.g., Gshare), analyzing tradeoffs in prediction accuracy and adaptability. 
 - **Focus:** Computer architecture, optimization algorithms, and applying machine learning-inspired techniques to low-level systems
 - [Project Repo](https://github.com/midoppal/genetic_algorithm_branch_predictor.git)
-<img src="/assets/images/genetic_branch_predictor_results.png" style="width:45%; height:45%; object-fit:cover;" />
+<img src="/assets/images/genetic_branch_predictor_results.png" style="width:100%; height:100%; object-fit:cover;" />
