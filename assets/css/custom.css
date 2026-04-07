@@ -155,3 +155,24 @@ hr {
   opacity: 1 !important;
   margin: 2rem 0;
 }
+
+/* ===== Homepage link boxes (Resume | Projects | LinkedIn) ===== */
+.intro-header .link-box,
+.intro-header .home-links a,
+.intro-header .page-link,
+.intro-header a.btn {
+  background-color: #111827 !important;
+  color: #e5e7eb !important;
+  border: 1px solid #1f2937 !important;
+  border-radius: 8px !important;
+  padding: 6px 12px !important;
+}
+
+/* hover */
+.intro-header .link-box:hover,
+.intro-header .home-links a:hover,
+.intro-header .page-link:hover {
+  background-color: #0ea5a4 !important;
+  color: #021414 !important;
+  border-color: #0ea5a4 !important;
+}
