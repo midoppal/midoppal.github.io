@@ -10,7 +10,7 @@ Machine Learning Engineer focused on computer vision, deep learning, and real-ti
 
 I am a Master's student in Computer Science at **UC Santa Cruz** with experience building deployable AI and machine learning systems, including **real-time text detection under motion blur**, **medical image classification**, and **graph-based ML research**.
 
-[LinkedIn](https://www.linkedin.com/in/milin-doppalapudi-a5255a32b/) | [Resume](./Resume.pdf) | [Projects](/projects/)
+[LinkedIn](https://www.linkedin.com/in/milin-doppalapudi-a5255a32b/) {: .home-button } | [Resume](./Resume.pdf) {: .home-button } | [Projects](/projects/) {: .home-button }
 
 ---
 
