@@ -131,15 +131,6 @@ footer a {
   box-shadow: none !important;
 }
 
-/* If the theme adds a white badge/box style to links */
-.intro-header a[href],
-.page-content a[href] {
-  background: transparent !important;
-  background-image: none !important;
-  padding: 0 !important;
-  border: none !important;
-  border-radius: 0 !important;
-}
 
 /* Link hover */
 .intro-header a:hover,
@@ -195,15 +186,22 @@ hr {
   background-color: transparent !important;
 }
 
-/* also remove container background */
+/* Remove white intro card behind buttons */
 .intro-header .container,
 .intro-header .container-md,
 .intro-header .container-lg {
-  background-color: transparent !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
 }
 
-.home-button:hover {
+.intro-header.big-img .container-md,
+.intro-header.big-img .container {
+  background: transparent !important;
+}
+
+/* .home-button:hover {
   background-color: #0ea5a4 !important;
   color: #021414 !important;
   border-color: #0ea5a4 !important;
-}
+} */
