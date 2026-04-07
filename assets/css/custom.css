@@ -176,3 +176,22 @@ hr {
   color: #021414 !important;
   border-color: #0ea5a4 !important;
 }
+
+
+/* ===== Custom homepage buttons ===== */
+.home-button {
+  display: inline-block;
+  margin: 0 8px 8px 0;
+  background-color: #111827 !important;
+  color: #e5e7eb !important;
+  border: 1px solid #1f2937 !important;
+  border-radius: 8px;
+  padding: 8px 14px;
+  text-decoration: none !important;
+}
+
+.home-button:hover {
+  background-color: #0ea5a4 !important;
+  color: #021414 !important;
+  border-color: #0ea5a4 !important;
+}
