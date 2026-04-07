@@ -121,3 +121,37 @@ footer a {
   color: #e5e7eb !important;
   border: 1px solid #1f2937;
 }
+
+/* Plain markdown links on homepage */
+.intro-header a,
+.page-content a {
+  background-color: transparent !important;
+  color: #0ea5a4 !important;
+  text-decoration: none;
+  box-shadow: none !important;
+}
+
+/* If the theme adds a white badge/box style to links */
+.intro-header a[href],
+.page-content a[href] {
+  background: transparent !important;
+  background-image: none !important;
+  padding: 0 !important;
+  border: none !important;
+  border-radius: 0 !important;
+}
+
+/* Link hover */
+.intro-header a:hover,
+.page-content a:hover {
+  color: #2dd4bf !important;
+  text-decoration: underline;
+}
+
+/* Make markdown horizontal rules visible */
+hr {
+  border: 0 !important;
+  border-top: 1px solid #374151 !important;
+  opacity: 1 !important;
+  margin: 2rem 0;
+}
