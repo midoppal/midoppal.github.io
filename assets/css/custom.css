@@ -1,62 +1,52 @@
-/* ===== Dark Mode Base ===== */
-body {
-  background-color: #0b0f14;
-  color: #e5e7eb;
+/* ===== Footer (Powered by Beautiful Jekyll) ===== */
+footer,
+.footer,
+.page-footer {
+  background-color: #0b0f14 !important;
+  color: #9ca3af !important;
+  border-top: 1px solid #1f2937;
 }
 
+/* Footer links */
+footer a {
+  color: #0ea5a4 !important;
+}
+
+
+/* ===== Top buttons (Resume / Projects / LinkedIn) ===== */
+.intro-header .btn,
+.btn,
+.btn-primary {
+  background-color: #111827 !important;
+  color: #e5e7eb !important;
+  border: 1px solid #1f2937 !important;
+}
+
+/* Button hover */
+.intro-header .btn:hover,
+.btn:hover {
+  background-color: #0ea5a4 !important;
+  color: #021414 !important;
+  border-color: #0ea5a4 !important;
+}
+
+
+/* ===== Intro card background ===== */
 .intro-header {
   background-color: #0b0f14 !important;
 }
 
-/* Content background */
-.page-content,
-.container-md,
-.container-lg,
-.container {
-  background-color: #0b0f14;
+/* If white box still appears behind content */
+.intro-header .container {
+  background-color: transparent !important;
 }
 
-/* Navbar */
-.navbar {
-  background-color: #0b0f14 !important;
-  border-bottom: 1px solid #1f2937;
-}
 
-/* Links */
-a {
-  color: #0ea5a4;
-}
-
-a:hover {
-  color: #2dd4bf;
-}
-
-/* Cards / blocks */
-.highlight,
-pre,
-code {
-  background-color: #111827;
-  color: #e5e7eb;
-}
-
-/* Headers */
-h1, h2, h3, h4 {
-  color: #0ea5a4;
-}
-
-/* Page title */
-.page-heading {
-  color: #0ea5a4 !important;
-}
-
-/* Navbar brand */
-.navbar-brand {
-  color: #0ea5a4 !important;
-}
-
-/* Footer */
-footer {
-  background-color: #0b0f14;
-  color: #9ca3af;
-  border-top: 1px solid #1f2937;
+/* ===== Any remaining white cards ===== */
+.card,
+.well,
+.panel {
+  background-color: #111827 !important;
+  color: #e5e7eb !important;
+  border: 1px solid #1f2937;
 }
