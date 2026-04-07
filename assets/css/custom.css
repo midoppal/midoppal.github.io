@@ -1,3 +1,63 @@
+/* ===== Dark Mode Base ===== */
+body {
+  background-color: #0b0f14;
+  color: #e5e7eb;
+}
+
+/* Content background */
+.page-content,
+.container-md,
+.container-lg,
+.container {
+  background-color: #0b0f14;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #0b0f14 !important;
+  border-bottom: 1px solid #1f2937;
+}
+
+/* Links */
+a {
+  color: #0ea5a4;
+}
+
+a:hover {
+  color: #2dd4bf;
+}
+
+/* Cards / blocks */
+.highlight,
+pre,
+code {
+  background-color: #111827;
+  color: #e5e7eb;
+}
+
+/* Headers */
+h1, h2, h3, h4 {
+  color: #0ea5a4;
+}
+
+/* Page title */
+.page-heading {
+  color: #0ea5a4 !important;
+}
+
+/* Navbar brand */
+.navbar-brand {
+  color: #0ea5a4 !important;
+}
+
+/* Footer */
+footer {
+  background-color: #0b0f14;
+  color: #9ca3af;
+  border-top: 1px solid #1f2937;
+}
+
+
 /* ===== Footer (Powered by Beautiful Jekyll) ===== */
 footer,
 .footer,
