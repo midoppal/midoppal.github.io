@@ -1,44 +1,58 @@
-/* Whole page background */
+/* ===== Dark Mode Base ===== */
 body {
-  background-color: #000000 !important;
-  color: #e5e7eb !important;
+  background-color: #0b0f14;
+  color: #e5e7eb;
 }
 
-/* Main content area */
-.page-content {
-  background-color: #000000 !important;
+/* Content background */
+.page-content,
+.container-md,
+.container-lg,
+.container {
+  background-color: #0b0f14;
 }
 
 /* Navbar */
 .navbar {
-  background-color: #000000 !important;
-  border-bottom: 1px solid #111 !important;
-}
-
-/* Footer */
-.footer {
-  background-color: #000000 !important;
+  background-color: #0b0f14 !important;
+  border-bottom: 1px solid #1f2937;
 }
 
 /* Links */
 a {
-  color: #0ea5a4 !important;
+  color: #0ea5a4;
 }
 
-/* Text blocks */
-p, li, span {
-  color: #e5e7eb !important;
+a:hover {
+  color: #2dd4bf;
 }
 
-/* Keep your teal headings */
+/* Cards / blocks */
+.highlight,
+pre,
+code {
+  background-color: #111827;
+  color: #e5e7eb;
+}
+
+/* Headers */
+h1, h2, h3, h4 {
+  color: #0ea5a4;
+}
+
+/* Page title */
 .page-heading {
   color: #0ea5a4 !important;
 }
 
+/* Navbar brand */
 .navbar-brand {
   color: #0ea5a4 !important;
 }
 
-h1, h2 {
-  color: #0ea5a4 !important;
+/* Footer */
+footer {
+  background-color: #0b0f14;
+  color: #9ca3af;
+  border-top: 1px solid #1f2937;
 }
