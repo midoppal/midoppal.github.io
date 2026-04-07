@@ -1,3 +1,36 @@
+/* Whole page background */
+body {
+  background-color: #000000 !important;
+  color: #e5e7eb !important;
+}
+
+/* Main content area */
+.page-content {
+  background-color: #000000 !important;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #000000 !important;
+  border-bottom: 1px solid #111 !important;
+}
+
+/* Footer */
+.footer {
+  background-color: #000000 !important;
+}
+
+/* Links */
+a {
+  color: #0ea5a4 !important;
+}
+
+/* Text blocks */
+p, li, span {
+  color: #e5e7eb !important;
+}
+
+/* Keep your teal headings */
 .page-heading {
   color: #0ea5a4 !important;
 }
@@ -7,5 +40,5 @@
 }
 
 h1, h2 {
-  color: #0ea5a4;
+  color: #0ea5a4 !important;
 }
