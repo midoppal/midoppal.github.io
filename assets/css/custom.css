@@ -200,6 +200,13 @@ hr {
   background: transparent !important;
 }
 
+.home-links {
+  margin-top: 10px;
+}
+
+.home-links a {
+  margin-right: 8px;
+}
 /* .home-button:hover {
   background-color: #0ea5a4 !important;
   color: #021414 !important;
