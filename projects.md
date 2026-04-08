@@ -68,6 +68,6 @@ Developed a branch prediction system using genetic algorithms to optimize predic
 - **Contribution:** Designed a fitness function based on misprediction-induced instruction flushes and implemented evolutionary updates over branch prediction tables
 - **Algorithm Design:** Introduced bimodal prediction values and consistency-based crossover to better capture branch behavior patterns.
 - **Evauation:** Simulated execution workloads and compared performance against traditional predictors (e.g., Gshare), analyzing tradeoffs in prediction accuracy and adaptability. 
-- **Focus:** Computer architecture, optimization algorithms, and applying machine learning-inspired techniques to low-level systems
+- **Focus:** Computer architecture, optimization algorithms, and applying machine learning inspired techniques to low level systems
 - [Project Repo](https://github.com/midoppal/genetic_algorithm_branch_predictor.git)
 <img src="/assets/images/genetic_branch_predictor_results.png" style="width:100%; height:100%; object-fit:cover;" />
