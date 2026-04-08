@@ -9,13 +9,12 @@ h1, h2 {
   color: #0ea5a4; 
 }
 
-/* ===== Dark Mode Base ===== */
 body {
   background-color: #0b0f14;
   color: #e5e7eb;
 }
 
-/* Content background */
+
 .page-content,
 .container-md,
 .container-lg,
@@ -23,13 +22,13 @@ body {
   background-color: #0b0f14;
 }
 
-/* Navbar */
+
 .navbar {
   background-color: #0b0f14 !important;
   border-bottom: 1px solid #1f2937;
 }
 
-/* Links */
+
 a {
   color: #0ea5a4;
 }
@@ -38,7 +37,7 @@ a:hover {
   color: #2dd4bf;
 }
 
-/* Cards / blocks */
+
 .highlight,
 pre,
 code {
@@ -46,22 +45,19 @@ code {
   color: #e5e7eb;
 }
 
-/* Headers */
+
 h1, h2, h3, h4 {
   color: #0ea5a4;
 }
 
-/* Page title */
 .page-heading {
   color: #0ea5a4 !important;
 }
 
-/* Navbar brand */
 .navbar-brand {
   color: #0ea5a4 !important;
 }
 
-/* Footer */
 footer {
   background-color: #0b0f14;
   color: #9ca3af;
@@ -69,7 +65,6 @@ footer {
 }
 
 
-/* ===== Footer (Powered by Beautiful Jekyll) ===== */
 footer,
 .footer,
 .page-footer {
@@ -78,13 +73,10 @@ footer,
   border-top: 1px solid #1f2937;
 }
 
-/* Footer links */
 footer a {
   color: #0ea5a4 !important;
 }
 
-
-/* ===== Top buttons (Resume / Projects / LinkedIn) ===== */
 .intro-header .btn,
 .btn,
 .btn-primary {
@@ -93,7 +85,6 @@ footer a {
   border: 1px solid #1f2937 !important;
 }
 
-/* Button hover */
 .intro-header .btn:hover,
 .btn:hover {
   background-color: #0ea5a4 !important;
@@ -101,19 +92,14 @@ footer a {
   border-color: #0ea5a4 !important;
 }
 
-
-/* ===== Intro card background ===== */
 .intro-header {
   background-color: #0b0f14 !important;
 }
 
-/* If white box still appears behind content */
 .intro-header .container {
   background-color: transparent !important;
 }
 
-
-/* ===== Any remaining white cards ===== */
 .card,
 .well,
 .panel {
@@ -122,7 +108,6 @@ footer a {
   border: 1px solid #1f2937;
 }
 
-/* Plain markdown links on homepage */
 .intro-header a,
 .page-content a {
   background-color: transparent !important;
@@ -131,15 +116,12 @@ footer a {
   box-shadow: none !important;
 }
 
-
-/* Link hover */
 .intro-header a:hover,
 .page-content a:hover {
   color: #2dd4bf !important;
   text-decoration: underline;
 }
 
-/* Make markdown horizontal rules visible */
 hr {
   border: 0 !important;
   border-top: 1px solid #374151 !important;
@@ -147,7 +129,6 @@ hr {
   margin: 2rem 0;
 }
 
-/* ===== Homepage link boxes (Resume | Projects | LinkedIn) ===== */
 .intro-header .link-box,
 .intro-header .home-links a,
 .intro-header .page-link,
@@ -159,7 +140,6 @@ hr {
   padding: 6px 12px !important;
 }
 
-/* hover */
 .intro-header .link-box:hover,
 .intro-header .home-links a:hover,
 .intro-header .page-link:hover {
@@ -168,8 +148,6 @@ hr {
   border-color: #0ea5a4 !important;
 }
 
-
-/* ===== Custom homepage buttons ===== */
 .home-button {
   display: inline-block;
   margin: 0 8px 8px 0;
@@ -181,12 +159,11 @@ hr {
   text-decoration: none !important;
 }
 
-/* remove white box around homepage buttons */
+
 .intro-header p {
   background-color: transparent !important;
 }
 
-/* Remove white intro card behind buttons */
 .intro-header .container,
 .intro-header .container-md,
 .intro-header .container-lg {
@@ -207,8 +184,4 @@ hr {
 .home-links a {
   margin-right: 8px;
 }
-/* .home-button:hover {
-  background-color: #0ea5a4 !important;
-  color: #021414 !important;
-  border-color: #0ea5a4 !important;
-} */
+
