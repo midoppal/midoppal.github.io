@@ -10,7 +10,7 @@ Built and evaluated two real time live text detection models for blurred video f
 
 - **Key results:** Achieved over 50% absolute improvement in F1 score over baseline for the highest blur level while maintaining stability across conditions. Maintained over 49 FPS for realtime deployment.
 - **Focus:** Real-time robustness under motion blur
-- [Project Repo](https://github.com/midoppal/DBNet-Blurred-Text-Detector)
+<!-- - [Project Repo](https://github.com/midoppal/DBNet-Blurred-Text-Detector) -->
 - [Paper](./assets/papers/Realtime_Live_Text_Detection.pdf)
 
 <div style="display:flex; justify-content:center; align-items:center; gap:10px; flex-wrap:nowrap;">
@@ -26,7 +26,7 @@ Adapted a multimodal large language model (LLaVA-Med) for pneumothorax and multi
 - **Key results:** Improved binary classification accuracy from ~48% (zero-shot) to ~78% using LoRA+BitFit, with significant gains in F1-score, AUC, and MCC. Additionally improved multiclass classification accuracy from ~14.25% (zero-shot) to ~38.07%.
 - **Efficiency:** Achieved strong performance while training only a small fraction of model parameters (≈0.05% for BitFit), enabling scalable adaptation of large MLLMs.
 - **Focus:** PEFT for medical vision-language models for targeted classification
-- [Project Repo](https://github.com/midoppal/PEFT-LLaVa-Med)
+<!-- - [Project Repo](https://github.com/midoppal/PEFT-LLaVa-Med) -->
 - [Paper](./assets/papers/Peft_LlaVaMed_Pneumothorax.pdf)
   
 ## Graph Neural Networks for Hyperparameter Inference in Ising Solvers
@@ -46,7 +46,7 @@ Developed a diffusion-based pipeline to generate realistic Modbus/TCP SCADA netw
 - **Contribution:** Built an end-to-end pipeline from PCAP parsing → structured feature extraction → diffusion model training → protocol-compliant packet reconstruction
 - **Validation:** Designed a multistage evaluation framework combining protocol-level verification (request–response consistency) and statistical similarity testing (PCA + SVM)
 - **Focus:** Network security, generative modeling, and realistic traffic synthesis for ICS environments
-- [Project Repo](https://github.com/midoppal/scada-generator-w-diffusion/tree/main)
+<!-- - [Project Repo](https://github.com/midoppal/scada-generator-w-diffusion/tree/main) -->
 - [Paper](./assets/papers/Diffusion_Based_SCADA_Traffic_Generation.pdf)
 
 ## Efficient Multi-Agent LLM Orchestration for Optimization (Chain-of-Experts)
@@ -57,7 +57,7 @@ Developed and evaluated alternative orchestration policies for a multi-agent LLM
 - **Contribution:** Designed a keyword-weighted expert selection strategy and a reinforcement learning (DQN) policy for dynamic expert routing.
 - **Evauation:** Benchmarked across accuracy, compile/runtime error rates, and token cost on the LPWP dataset for optimization problem solving.
 - **Focus:** Multi-agent LLM systems, cost-efficient inference, and automated optimization modeling
-- [Project Repo](https://github.com/midoppal/Chain-of-Experts-Policy.git)
+<!-- - [Project Repo](https://github.com/midoppal/Chain-of-Experts-Policy.git) -->
 - [Paper](./assets/papers/Efficient_Multi_Agent_LLM_Orchestration_for_Optimization.pdf)
 
 ## Genetic Algorithm-Based Branch Predictor
@@ -69,5 +69,5 @@ Developed a branch prediction system using genetic algorithms to optimize predic
 - **Algorithm Design:** Introduced bimodal prediction values and consistency-based crossover to better capture branch behavior patterns.
 - **Evauation:** Simulated execution workloads and compared performance against traditional predictors (e.g., Gshare), analyzing tradeoffs in prediction accuracy and adaptability. 
 - **Focus:** Computer architecture, optimization algorithms, and applying machine learning inspired techniques to low level systems
-- [Project Repo](https://github.com/midoppal/genetic_algorithm_branch_predictor.git)
+<!-- - [Project Repo](https://github.com/midoppal/genetic_algorithm_branch_predictor.git) -->
 <img src="/assets/images/genetic_branch_predictor_results.png" style="width:100%; height:100%; object-fit:cover;" />
